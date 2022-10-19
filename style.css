@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+.mainH{
+color:black;
+text-align: center;
+}
+.container{
+    padding: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formauth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form h3, form input, form button{
+    width: 75%;
+    margin-top: 20px;
+}
+form input{
+    margin: 3px;
+    padding: 15px;
+    border: none;
+    border-color: #FFFAFA;
+    border-radius: 20px;
+}
+form button{
+    transition: 0.5s;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: bisque;
+}
+form button{
+    transition: 0.5s;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 183, 49);
+    border-radius: 10px;
+    color: rgb(235, 235, 235);
+}
+form button:hover{
+    transition: 1s;
+    background-color: rgb(133, 95, 25);
+    color: rgb(255, 255, 255);
+
+}
+.formAuth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.vh100{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body{
+    background-image: url(./1625559499_19-kartinkin-com-p-krasivii-fon-anime-anime-krasivo-19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section{
+    background-color: #FFFAFA;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    width: 100%;
+    display: flex;
+}
+.header a{
+    color:#CC7F5E;
+    text-decoration: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 10px;
+    font-size:20px;
+}
+.header .item{
+    margin: 0 20px;
+    height: 100%;
+    height: 60px;
+}
+.header a:hover{
+    color: #2F4F4F;
+    background-color:#FFFFF0 ;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.row .item{
+    width: 31%;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(226, 197, 193);
+    background-color: #f5f5f5;
+}
+.row .item:hover{
+    background-color: #ebcbcb;
+    box-shadow:0 0 15px rgb(0, 0, 0);
+}
+.row .item img{
+    height: 550px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.row .item .inner h3{
+    text-align: center;
+    margin:10px 0px;
+    font-weight:700;
+    font-size: 25px;
+}
+.row .item .inner p{
+    text-align: center;
+    margin:10px;
+    font-weight:700;
+    font-size: 20px;
+}
+.row .item .inner{
+    padding:0 0 10px;
+}
+.sectiontitle{
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #f3e7e78e;
+}
+.sectiontitle .container{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.sectiontitle .container h2{
+color: #964b2b;
+}
+#blog{
+    justify-content: center;
+    background-image: url(./Без\ названия.jfif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blog .item{
+    width:100%;
+background-color: rgb(250, 132, 132);
+padding: 10px;
+border-radius: 7px;
+border-radius: 7px;
+
+}
+#blog .item .bottom{
+    display: flex;
+    justify-content: center;
+}
+#ok{
+    width: 100%;
+    height: 600px;
+}
+.cont{
+    padding: 10px;
+}
+.cont .th{
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin:20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.cont .th p{
+    font-size: 25px;
+}
+.cont .th h2{
+    font-size: 30px;
+}
+.cont .th h3{
+    font-style:italic;
+    font-size: 25px;
+}
+.cont .th img{
+    border-radius: 10px 10px 0 0;
+    width:100%
+    
+}
+.cont .th .im{
+    margin-right: 20px;
+    height: auto;
+    width:13%;
+}
+.cont .th .tx{
+    width:87%
+}
+.rw{
+    display: flex;
+    width: calc(1/5%);
+}
+.cont .rw .card h2{
+    text-align: center;
+    margin:10px;
+    font-weight:700;
+    font-size: 20px;
+}
+.cont .rw .card {
+    padding: 7px;
+}
+.cont .rw .card img{
+    height: 540px;
+    width:100%
+}
+.mg{
+    width:30%;
+    justify-content: center;
+    display: flex;
+}
+.mg img{
+    width:60%;
+    border-radius: 200px;
+    margin: 15px;
+}
+.con{
+    margin:30px 90px;
+    background-color: #f3e7e78e;
+    border-radius: 10%;
+}
+.r{
+    justify-content: center;
+    display: flex;
+}
+.inner{
+    padding-bottom: 70px;
+    margin: 40px 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.tx p{
+margin:10px 10px 20px;
+}
+#bot{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 90px;
+    border-radius: 10%;
+}
+.addr{
+    background-color: #f3e7e78e;
+    border-radius: 10%;
+    padding: 10px;
+width: 40%;
+margin:10px
+}
+#th{
+    background: none;
+}
+#th .im{
+    background-color: #ffefefe5;
+    margin: 0px;
+    width:20%;
+}
+.cont .th #jl{
+    height: auto;
+
+    padding: 40px;
+    border-radius: 10%;
+}
+.cont .th #tx{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.cont .th #tx .vn{
+    padding: 40px;
+    border-radius: 50px;
+    background-color: #ffefefe5;
+}
+.lk{
+    width: 100%;
+    height: 600px;
+}
+.container .carousel-inner{
+    height: 500px;
+    width: 100%;
+}
+#carouselExampleIndicators{
+    height: 500px;
+    width: 100%;
+}
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
+}
+.accordion .accordion-item{
+    background-color: #f3e7e78e !important;
+}
+#titl{
+    background-color:#f3e7e7;
+}
+.accordion .accordion-button{
+    background-color: #f3e7e78e !important;
+}
+#jl img{
+height: 450px;
+}
+.tain{
+    margin: 20px 75px;
+}
+.page-link:hover{
+    background-color: #f3e7e7 !important;
+
+}
+.page-link{
+    background-color: #f3e7e78e !important;
+}
+.page-item{
+    border: none;
+}
+.wht{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cont1{
+    margin:0;
+    background-color: #f3e7e78e;
+}
